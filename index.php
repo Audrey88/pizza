@@ -16,8 +16,9 @@
 
 foreach ($xml as $pizza)
 {
+	$picz = $pizza->image;
         echo 
-                "<tr><td>".$pizza->image."</td>",
+                "<tr><td><img src='$picz' width='160' height='120'></td>",
                 "<td>".$pizza->nom."</td>",
                 "<td>".$pizza->composition."</td></tr>",
                 "<tr><td>".$pizza->prix."</td></tr>";

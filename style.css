@@ -4,12 +4,11 @@
 	}
 
 html{
-    background: url("res/back.jpg") center center #000; 
+    background: url("res/back.jpg")  center center #000; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
-
 }
 
 #logo{
