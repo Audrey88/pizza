@@ -1,9 +1,15 @@
+
+#Nom{
+		text-align: center;
+	}
+
 html{
     background: url("res/back.jpg") center center #000; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; 
+
 }
 
 #logo{
@@ -11,17 +17,25 @@ html{
 }
 
 #list{
-		border: 1px;
+		border: 1px solid black;
+		border-radius: 1em;
+		width: 150px;
+		float: left;
 
 }
 
 #open{
-		border: 1px;
+		text-align:right;
+		font-size: 24px;
+		float: right;
 		
 }
 
 #command{
-
+			border: 1px solid black;
+			border-radius: 1em;
+			width: 150px;
+			float: left;
 }
 
 #stefano{
