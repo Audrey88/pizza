@@ -1,0 +1,118 @@
+<<<<<<< HEAD
+#Nom{
+		text-align: center;
+=======
+html{
+    background: url("res/back.jpg") center center #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+>>>>>>> 66455cd4b4de54fdabf0b1be9e4a34084129f01a
+}
+
+#logo{
+
+}
+
+#list{
+		border: 1px solid black;
+		border-radius: 1em;
+		width: 150px;
+		float: left;
+
+}
+
+#open{
+		text-align:right;
+		font-size: 24px;
+		float: right;
+		
+}
+
+#command{
+			border: 1px solid black;
+			border-radius: 1em;
+			width: 150px;
+			float: left;
+}
+
+#stefano{
+
+}
+
+#text{
+
+}
+
+#box {
+
+}
+
+#book{
+
+}
+
+#book{
+
+}
+
+#command{
+
+}
+
+#stefano{
+
+}
+
+#text{
+
+}
+
+#box{
+
+}
+
+#book{
+
+}
+
+#photo{
+
+}
+
+#nom{
+
+}
+
+#ingredient{
+
+}
+
+#size{
+
+}
+
+#prix{
+
+}
+
+#phone{
+
+}
+
+#valid{
+
+}
+
+#cb{
+
+}
+
+#pay{
+
+}
+
+#lcommand{
+
+}
