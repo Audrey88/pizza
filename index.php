@@ -8,24 +8,28 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 <body>
 <!-- php script -->
-                <table border=1><th>Pizzas</th>
+<table border=1><th>Pizzas</th>
                         <tbody>
 <?php 
         $fichier = 'res/catalogue-pizzas.xml';
         $xml = simplexml_load_file($fichier);
 
-foreach ($xml as $pizza)
-{
+foreach ($xml as $pizza) {
 	$picz = $pizza->image;
+	echo $pizza->prix->attributes();
+
         echo 
                 "<tr><td><img src='$picz' width='160' height='120'></td>",
                 "<td>".$pizza->nom."</td>",
                 "<td>".$pizza->composition."</td></tr>",
-                "<tr><td>".$pizza->prix."</td></tr>";
-        
-                
-        }
+                "<tr><td>".$pizza->prix->attributes()->{'taille_l'}."</td></tr>",
+                "<tr><td>".$pizza->prix->attributes()->{'taille_xl'}."</td></tr>",
+                "<tr><td>".$pizza->prix->attributes()->{'taille_xxl'}."</td></tr>";
+
+    }
 ?>
+</tbody>
+</table>
 
 <!-- php script -->
 
