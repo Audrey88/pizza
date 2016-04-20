@@ -4,7 +4,30 @@
 	
 </head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="style.css">
 <body>
+<!-- php script -->
+                <table border=1><th>Pizzas</th>
+                        <tbody>
+<?php 
+        $fichier = 'res/catalogue-pizzas.xml';
+        $xml = simplexml_load_file($fichier);
+
+foreach ($xml as $pizza)
+{
+        echo 
+                "<tr><td>".$pizza->image."</td>",
+                "<td>".$pizza->nom."</td>",
+                "<td>".$pizza->composition."</td></tr>",
+                "<tr><td>".$pizza->prix."</td></tr>";
+        
+                
+        }
+?>
+
+<!-- php script -->
+
 <div id="Nom"> <h1> Tour de Pisa! <h1> </div>
 
 	<div id="logo">(logo) </div>
