@@ -1,11 +1,11 @@
 <!DOCTYPE HTML>
 <html>
-
 <head>
-	<div id="Nom"> <h1> Tour de Pisa! <h1> </div>
+	
 </head>
-
+	<meta charset="UTF-8">
 <body>
+<div id="Nom"> <h1> Tour de Pisa! <h1> </div>
 
 	<div id="logo">(logo) </div>
 
