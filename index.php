@@ -77,17 +77,18 @@ Téléphone: 03.54.43.96.42 </br>
 </p>
 </div>
 
-	<div id="box"> <h4>pizza du mois<h4> </div>
+	<div id="box"> <h4>pizza du mois<h4> 
+	<p>Summer: Tomate,Poulet,</br> Ananas,poivron,</br>mozzarela </p></div>
 
 	<div id="book"><h4> livre d'or<h4>
 <p> Laissez-nous vos commentaires <p> </div>
 
 
-	<div id="command"> </div>
 	
 	<div id="photo"> </div>
 
 	<div id="nom"> </div>
+	
 
 	<div id="ingredient"> </div>
 
@@ -95,7 +96,7 @@ Téléphone: 03.54.43.96.42 </br>
 
 	<div id="prix"> </div>
 
-	<div id="command"> </div>
+
 
 
 	<div id="phone"> </div>
@@ -107,7 +108,7 @@ Téléphone: 03.54.43.96.42 </br>
 	<div id="pay"> <h4> Paiement Paypal </h4> </div>
 
 	<div id="lcommand"> <h5> Votre liste de commande </h5> </div>
-	 
+	
 
 </body>
 
