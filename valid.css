@@ -33,3 +33,11 @@ margin-top: 45px;
 text-align: center;
 }
 
+html{
+    background: url("res/backcom.png")  center center #000; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
