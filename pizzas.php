@@ -40,13 +40,22 @@ foreach ($xml as $pizza) {
 <OPTION VALUE='1'>Taille L : $l euros
 <OPTION VALUE='2'>Taille XL : $xl euros
 <OPTION VALUE='3'>Taille XXL : $xxl euros
+<input type='number' size='2' id='nb' name='number' value='0' />
 </SELECT> 
-<INPUT TYPE='button'NAME='b' VALUE='OK' onClick='liste(form5)'> </FORM>
+<INPUT TYPE='button'NAME='b' VALUE='OK' onClick='liste(form5), number(nb)'> </FORM>
+
+
+
 
                 </tr>";
 
 
     }
+
+
+
+
+
 ?>
 </tbody>
 </table>
