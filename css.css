@@ -5,17 +5,6 @@ body{
 			font-family: Roman SD;
 }
 
-#Nom{
-		text-align: center;
-		font-size: 25px;
-		border: 3px solid black;
-		border-radius: 5%;
-		 background-color: rgba(255, 255, 255, 0.6);
-		 font-family: Courier;
-		 text-decoration: underline;
-
-	}
-
 html{
     background: url("res/back.jpg")  center center #000; 
     -webkit-background-size: cover;
@@ -25,9 +14,14 @@ html{
 }
 
 
+
+
+
+
 #list{
-		border: 3px solid black;
-		border-radius: 5%;
+		border: 1px solid black;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 		width: 150px;
 		display: block;
 		margin-top: 50px;
@@ -35,6 +29,50 @@ html{
 		font-size: 20px;
 		background-color: rgba(255, 255, 255, 0.6);
 }
+
+#pi {
+	float: left;
+	margin: 10px;
+}
+
+#Nom{
+	position: relative;
+		text-align: center;
+		font-size: 25px;
+		border: 1px solid black;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+		 background-color: rgba(255, 255, 255, 0.6);
+		 font-family: Courier;
+	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
 
 #open{
 		font-size: 50px;
@@ -44,8 +82,9 @@ html{
 }
 
 #command{
-			border: 3px solid black;
-			border-radius: 5%;
+		border: 1px solid black;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 			width: 170px;
 			display: block;
 			margin-top: 50px;
@@ -65,8 +104,9 @@ html{
 
 #text{
 		margin-top: 100px;
-		border: 4px solid black;
-		border-radius: 5%;
+		border: 1px solid black;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 		width: 500px;
 		height: 200px;
 		text-align: center;
@@ -80,12 +120,13 @@ html{
 
 #box {
 		margin-top: 100px;
-		border: 4px solid black;
+		border: 1px solid black;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 		float: left;
 		display: inline-block;
 		width: 200px;
 		height: 150px;
-		border-radius: 5%;
 		text-align: center;
 		background-color: rgba(255, 255, 255, 0.6);
 		font-size: 20px;
@@ -96,12 +137,13 @@ html{
 
 #book{
 		margin-top: 100px;
-		border: 4px solid black;
+		border: 1px solid black;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 		float: right;
 		display: inline-block;
 		width: 200px;
 		height: 150px;
-		border-radius: 5%;
 		text-align: center;
 		text-decoration: justify;
 		background-color: rgba(255, 255, 255, 0.6);

@@ -1,8 +1,55 @@
+#pi {
+	float: left;
+	margin: 10px;
+}
+
+
+#Nom{
+	position: relative;
+		text-align: center;
+		font-size: 25px;
+		border: 1px solid black;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+		 background-color: rgba(255, 255, 255, 0.6);
+		 font-family: Courier;
+	}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+
+
 #valid{ 
-	clear: both;
+	
 	border: 2px solid black;
 	text-align: center;
-	background-color: 
+	background-color:rgba(255, 255, 255, 0.6); 
+	font-family: Montserrat;
 }
 
 #cb{
@@ -10,10 +57,12 @@
 	width: 200px;
 	height: 250px;
 	display: inline-block;
-	clear: both;
+	
 	float: left;
 	margin-top: 50px;
 	text-align: center;
+	background-color:rgba(255, 255, 255, 0.6);
+	font-family: Montserrat;
 
 }
 
@@ -24,13 +73,17 @@
 	float: right;
 	margin-top: 50px;
 	text-align: center;
+	background-color:rgba(255, 255, 255, 0.6);
+	font-family: Montserrat;
 }
 
 #lcommand{
-clear: both;
 border: 1px solid black;
 margin-top: 45px;
+float: bottom;
 text-align: center;
+background-color:rgba(255, 255, 255, 0.6);
+font-family: Montserrat;
 }
 
 html{
@@ -40,4 +93,10 @@ html{
     -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat; 
+}
+
+body{
+			margin: auto;
+			width: 900px;
+			
 }

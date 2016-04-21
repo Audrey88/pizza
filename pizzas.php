@@ -12,6 +12,17 @@ alert("L\'élément " + (form5.list.selectedIndex + 1)); }
 	<link rel="stylesheet" type="text/css" href="pizzas.css">
 <body>
 
+
+<div id="Nom"> 
+<img id="pi" src="res/pizzaiolo.jpg" height="100px" width="100px">
+<h1>TOUR DE PISA<h1> 
+</div>
+<ul>
+  <li><a class="active" href="index.html">ACCUEIL</a></li>
+  <li><a href="pizzas.php">NOS PIZZAS</a></li>
+  <li><a href="valid.html">COMMANDER</a></li>
+</ul>
+
 <!-- php script -->
 
 <table>
