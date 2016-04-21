@@ -14,7 +14,7 @@ alert("L\'élément " + (form5.list.selectedIndex + 1)); }
 
 
 <div id="Nom"> 
-<img id="pi" src="res/pizzaiolo.jpg" height="100px" width="100px">
+
 <h1>TOUR DE PISA<h1> 
 </div>
 <ul>
