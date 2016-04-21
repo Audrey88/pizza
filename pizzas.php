@@ -9,13 +9,12 @@ alert("L\'élément " + (form5.list.selectedIndex + 1)); }
 </head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="pizzas.css">
 <body>
 
 <!-- php script -->
 
-<table border=1>
-<th>Pizzas</th>
+<table>
 <tbody>
 <?php 
         $fichier = 'res/catalogue-pizzas.xml';
@@ -33,21 +32,13 @@ foreach ($xml as $pizza) {
                 <td><img src='$picz' width='160' height='120'></td>
                 <td>$nom</td>
                 <td>$comp</td>
-                <td>
-
-<FORM NAME='form5'> 
-<SELECT NAME='list'> 
-<OPTION VALUE='1'>Taille L : $l euros
-<OPTION VALUE='2'>Taille XL : $xl euros
-<OPTION VALUE='3'>Taille XXL : $xxl euros
-<input type='number' size='2' id='nb' name='number' value='0' />
-</SELECT> 
-<INPUT TYPE='button'NAME='b' VALUE='OK' onClick='liste(form5), number(nb)'> </FORM>
-
-
-
-
-                </tr>";
+              
+                <td>L <br><br>$l</td>
+                <td>XL <br><br>$xl</td>
+                <td>XXL <br><br>$xxl</td>
+                
+                </tr>
+                ";
 
 
     }
