@@ -78,14 +78,6 @@ li a:hover {
 	font-family: Montserrat;
 }
 
-#lcommand{
-border: 1px solid black;
-margin-top: 600px;
-text-align: center;
-box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-background-color:rgba(255, 255, 255, 0.6);
-font-family: Montserrat;
-}
 
 html{
     background: url("res/backcom.png")  center center #000; 
@@ -116,3 +108,10 @@ body{
 		background-color: rgba(255, 255, 255, 0.6);
 		font-weight: bold;
 }
+#livraison{ position: relative;
+	bottom:-290px;
+	left: -85px;
+		display: inline;
+		float:center;
+		}
+

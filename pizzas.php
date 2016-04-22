@@ -12,7 +12,14 @@ alert("L\'élément " + (form5.list.selectedIndex + 1)); }
 	<link rel="stylesheet" type="text/css" href="pizzas.css">
 <body>
 
+    <div id="open"> 
 
+        <p> OUVERT 7/24 </p>
+
+</div>
+
+
+</div>
 <div id="Nom"> 
 
 <h1>TOUR DE PISA<h1> 
