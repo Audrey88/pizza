@@ -45,7 +45,7 @@ li a:hover {
 
 
 #valid{ 
-	
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 	border: 2px solid black;
 	text-align: center;
 	background-color:rgba(255, 255, 255, 0.6); 
@@ -57,7 +57,7 @@ li a:hover {
 	width: 200px;
 	height: 250px;
 	display: inline-block;
-	
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 	float: left;
 	margin-top: 50px;
 	text-align: center;
@@ -72,6 +72,7 @@ li a:hover {
 	height:  250px;
 	float: right;
 	margin-top: 50px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 	text-align: center;
 	background-color:rgba(255, 255, 255, 0.6);
 	font-family: Montserrat;
@@ -79,9 +80,9 @@ li a:hover {
 
 #lcommand{
 border: 1px solid black;
-margin-top: 45px;
-float: bottom;
+margin-top: 600px;
 text-align: center;
+box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
 background-color:rgba(255, 255, 255, 0.6);
 font-family: Montserrat;
 }
@@ -99,4 +100,19 @@ body{
 			margin: auto;
 			width: 900px;
 			
+}
+
+#formulaire{
+		
+		border: 1px solid black;
+		margin-left: 200px;
+		margin-top: 900px;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+		width: 250px;
+		height: 400px;
+		text-align: center;
+		display: inline;
+		background-color: rgba(255, 255, 255, 0.6);
+		font-weight: bold;
 }
