@@ -106,14 +106,14 @@ li a:hover {
 
 }
 
-#stefano{ margin-top: 70px;
+#stefano{ margin-top: 0px;
 		display: inline;
 		float:left;
 
 }
 
 #livraison{ position: relative;
-	bottom:-175px;
+	bottom:-100px;
 		display: inline;
 		float:center;
 		}
