@@ -15,6 +15,62 @@
 		 font-family: Courier;
 	}
 
+.ij {
+	width: 400px;
+	border: 1px solid black;
+margin-left: 60px;
+	height: 250px;
+	float: center;
+	border-radius: 5px;
+	display: inline-block;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+	
+	float: left;
+	margin-top: 50px;
+	text-align: center;
+	background-color:rgba(255, 255, 255, 0.6);
+
+}
+
+#name {
+		
+		border: 1px solid black;
+		border-radius: 5px;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+		text-align: center;
+		display: inline-block;
+		float: center;
+		background-color: rgba(255, 255, 255, 0.6);
+		font-weight: bold;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -58,6 +114,7 @@ li a:hover {
 	height: 250px;
 	display: inline-block;
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+border-radius: 5px;
 	float: left;
 	margin-top: 50px;
 	text-align: center;
@@ -70,6 +127,7 @@ li a:hover {
 	border: 1px solid black;
 	width: 200px;
 	height:  250px;
+	border-radius: 5px;
 	float: right;
 	margin-top: 50px;
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
@@ -108,10 +166,10 @@ body{
 		background-color: rgba(255, 255, 255, 0.6);
 		font-weight: bold;
 }
+
 #livraison{ position: relative;
-	bottom:-290px;
-	left: -85px;
+	bottom:-150px;
+	left: 250px;
 		display: inline;
 		float:center;
 		}
-

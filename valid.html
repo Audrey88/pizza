@@ -26,7 +26,297 @@
 			 <img src="res/Paypal.gif" width="50px" height="50px"><br/><br/>
 			 <img src="res/CB.gif" width="50px" heigth="50px">
 	</div>
-	<div id="formulaire"> </div>
+	<div id="form"> 
+
+<script>
+function savoir(){
+var indice_selectionne=document.pige.compris.selectedIndex;
+var chango=document.pige.compris.options[indice_selectionne].value; switch (chango){
+case "ni":document.pige.texter.value=7;break;
+case "na":document.pige.texter.value=12;break;
+case "ne":document.pige.texter.value=18;break;
+}
+
+}
+function doMinus(){
+ document.getElementById("count").value = --document.getElementById("count").value;
+}
+
+function doPlus(){
+ document.getElementById("count").value = ++document.getElementById("count").value;
+}
+
+function reine() {
+var indice_selectionne=document.taille.prix.selectedIndex;
+var change=document.taille.prix.options[indice_selectionne].value; switch (change) {
+case "l":document.taille.texte.value=7.40; break;
+case "xl":document.taille.texte.value=12.80; break;
+case "xxl":document.taille.texte.value=19; break;
+}
+}
+
+function doMinus1(){
+ document.getElementById("count1").value = --document.getElementById("count1").value;
+}
+
+function doPlus1(){
+ document.getElementById("count1").value = ++document.getElementById("count1").value;
+}
+
+function merguez() {
+var indice_selectionne=document.taill.price.selectedIndex;
+var chang=document.taill.price.options[indice_selectionne].value; switch (chang) {
+case "l":document.taill.mer.value=7.80; break;
+case "xl":document.taill.mer.value=13.20; break;
+case "xxl":document.taill.mer.value=19.50; break;
+}
+}
+
+function doMinus2(){
+ document.getElementById("count2").value = --document.getElementById("count2").value;
+}
+
+function doPlus2(){
+ document.getElementById("count2").value = ++document.getElementById("count2").value;
+}
+
+function roquefort() {
+var indice_selectionne=document.taile.pri.selectedIndex;
+var change=document.taile.pri.options[indice_selectionne].value; switch (change) {
+case "l":document.taile.roc.value=8.20; break;
+case "xl":document.taile.roc.value=13.50; break;
+case "xxl":document.taile.roc.value=20; break;
+}
+}
+
+function doMinus3(){
+ document.getElementById("count3").value = --document.getElementById("count3").value;
+}
+
+function doPlus3(){
+ document.getElementById("count3").value = ++document.getElementById("count3").value;
+}
+
+function royal() {
+var indice_selectionne=document.taie.pix.selectedIndex;
+var change=document.taie.pix.options[indice_selectionne].value; switch (change) {
+case "l":document.taie.txte.value=9.60; break;
+case "xl":document.taie.txte.value=14.10; break;
+case "xxl":document.taie.txte.value=20.20; break;
+}
+}
+
+function doMinus4(){
+ document.getElementById("count4").value = --document.getElementById("count4").value;
+}
+
+function doPlus4(){
+ document.getElementById("count4").value = ++document.getElementById("count4").value;
+}
+
+function royalb() {
+var indice_selectionne=document.talle.prx.selectedIndex;
+var change=document.talle.prx.options[indice_selectionne].value; switch (change) {
+case "l":document.talle.txt.value=9.80; break;
+case "xl":document.talle.txt.value=14.50; break;
+case "xxl":document.talle.txt.value=21.20; break;
+}
+}
+
+function doMinus5(){
+ document.getElementById("count5").value = --document.getElementById("count5").value;
+}
+
+function doPlus5(){
+ document.getElementById("count5").value = ++document.getElementById("count5").value;
+}
+
+function saumon() {
+var indice_selectionne=document.aille.rix.selectedIndex;
+var change=document.aille.rix.options[indice_selectionne].value; switch (change) {
+case "l":document.aille.exte.value=10.60; break;
+case "xl":document.aille.exte.value=15.40; break;
+case "xxl":document.aille.exte.value=22.20; break;
+}
+}
+
+function doMinus6(){
+ document.getElementById("count6").value = --document.getElementById("count6").value;
+}
+
+function doPlus6(){
+ document.getElementById("count6").value = ++document.getElementById("count6").value;
+}
+
+function savoyarde() {
+var indice_selectionne=document.tille.pric.selectedIndex;
+var change=document.tille.pric.options[indice_selectionne].value; switch (change) {
+case "l":document.tille.text.value=10.40; break;
+case "xl":document.tille.text.value=14.80; break;
+case "xxl":document.tille.text.value=21.20; break;
+}
+}
+
+function doMinus7(){
+ document.getElementById("count7").value = --document.getElementById("count7").value;
+}
+
+function doPlus7(){
+ document.getElementById("count7").value = ++document.getElementById("count7").value;
+}
+
+function texane() {
+var indice_selectionne=document.ta.pr.selectedIndex;
+var change=document.ta.pr.options[indice_selectionne].value; switch (change) {
+case "l":document.ta.tt.value=11.40; break;
+case "xl":document.ta.tt.value=15.50; break;
+case "xxl":document.ta.tt.value=22.50; break;
+}
+}
+
+function doMinus8(){
+ document.getElementById("count8").value = --document.getElementById("count8").value;
+}
+
+function doPlus8(){
+ document.getElementById("count8").value = ++document.getElementById("count8").value;
+}
+
+</script>
+
+	<ul class="ij">
+		<li>Marguerite
+<form name="pige">
+<select name="compris" onchange="savoir()">
+<option value="ni">L</option>
+<option value="na">XL</option>
+<option value="ne">XXL</option>
+</select>
+<input type="text" name="texter" size="3" value=7>
+</form>
+<div id="input_div">
+ <input type="text" size="3" value="0" id="count" />
+ <input type="button" value="-" id="minus" onClick = "doMinus();" />
+ <input type="button" value="+" id="plus" onClick = "doPlus();" />
+
+		</li>
+
+		
+		<li> Reine
+<form name="taille">
+	<select name="prix" onchange="reine()">
+		<option value="l">L </option>
+		<option value="xl">XL</option>
+		<option value="xxl">XXL</option>
+	</select>
+	<input type="text" name="texte" size="3" value=7.4>
+	</form>
+	 <input type="text" size="3" value="0" id="count1" />
+ <input type="button" value="-" id="minus" onClick = "doMinus1();" />
+ <input type="button" value="+" id="plus" onClick = "doPlus1();" />
+		</li>
+		
+		<li> Merguez
+<form name="taill">
+	<select name="price" onchange="merguez()">
+		<option value="l">L </option>
+		<option value="xl">XL</option>
+		<option value="xxl">XXL</option>
+	</select>
+	<input type="text" name="mer" size="3" value=7.8>
+	</form>
+		 <input type="text" size="3" value="0" id="count2" />
+ <input type="button" value="-" id="minus" onClick = "doMinus2();" />
+ <input type="button" value="+" id="plus" onClick = "doPlus2();" />
+		</li>
+		
+		<li> Roquefort
+<form name="taile">
+	<select name="pri" onchange="roquefort()">
+		<option value="l">L </option>
+		<option value="xl">XL</option>
+		<option value="xxl">XXL</option>
+	</select>
+	<input type="text" name="roc" size="3" value=8.2>
+	</form>
+		 <input type="text" size="3" value="0" id="count3" />
+ <input type="button" value="-" id="minus" onClick = "doMinus3();" />
+ <input type="button" value="+" id="plus" onClick = "doPlus3();" />
+		</li>
+	
+	<li> Royal
+<form name="taie">
+	<select name="pix" onchange="royal()">
+		<option value="l">L </option>
+		<option value="xl">XL</option>
+		<option value="xxl">XXL</option>
+	</select>
+	<input type="text" name="txte" size="3" value=9.6>
+	</form>
+		 <input type="text" size="3" value="0" id="count4" />
+ <input type="button" value="-" id="minus" onClick = "doMinus4();" />
+ <input type="button" value="+" id="plus" onClick = "doPlus4();" />
+		</li>
+	
+	<li> Royal-Bacon
+<form name="talle">
+	<select name="prx" onchange="royalb()">
+		<option value="l">L </option>
+		<option value="xl">XL</option>
+		<option value="xxl">XXL</option>
+	</select>
+	<input type="text" name="txt" size="3" value=9.8>
+	</form>
+		 <input type="text" size="3" value="0" id="count5" />
+ <input type="button" value="-" id="minus" onClick = "doMinus5();" />
+ <input type="button" value="+" id="plus" onClick = "doPlus5();" />
+		</li>
+		
+		<li> Saumon
+<form name="aille">
+	<select name="rix" onchange="saumon()">
+		<option value="l">L </option>
+		<option value="xl">XL</option>
+		<option value="xxl">XXL</option>
+	</select>
+	<input type="text" name="exte" size="3" value=10.6>
+	</form>
+		 <input type="text" size="3" value="0" id="count6" />
+ <input type="button" value="-" id="minus" onClick = "doMinus6();" />
+ <input type="button" value="+" id="plus" onClick = "doPlus6();" />
+		</li>
+		
+		<li> Savoyarde
+<form name="tille">
+	<select name="pric" onchange="savoyarde()">
+		<option value="l">L </option>
+		<option value="xl">XL</option>
+		<option value="xxl">XXL</option>
+	</select>
+	<input type="text" name="text" size="3" value=10.4>
+	</form>
+		 <input type="text" size="3" value="0" id="count7" />
+ <input type="button" value="-" id="minus" onClick = "doMinus7();" />
+ <input type="button" value="+" id="plus" onClick = "doPlus7();" />
+		</li>
+		
+		<li> Texane
+<form name="ta">
+	<select name="pr" onchange="texane()">
+		<option value="l">L </option>
+		<option value="xl">XL</option>
+		<option value="xxl">XXL</option>
+	</select>
+	<input type="text" name="tt" size="3" value=11.4>
+	</form>
+		 <input type="text" size="3" value="0" id="count8" />
+ <input type="button" value="-" id="minus" onClick = "doMinus8();" />
+ <input type="button" value="+" id="plus" onClick = "doPlus8();" />
+		</li>
+		
+		</ul>
+
+	</div>
 
 	<div id="pay"> <h4> Paiement en espece </h4> 
 			<img src="res/ESPECE.jpg" width="50px" height="50px">
